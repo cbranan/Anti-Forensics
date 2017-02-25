@@ -26,7 +26,7 @@ After this project concludes, law enforcement, incident response, and digital fo
 ### Project-Oriented Risk List
 
 | Risk name (value) | Impact | Likelihood | Description |
-|-|-|-|-|
+|---|---|---|---|
 | Can't find appropriate tools (25) |  5 | 5 | Tools do not exist or cannot be obtained to perform intended anti-forensic techniques. |
 | Loss of team member (20) | 10 | 2 | An unexpected incident prevents a team member from contributing during the time of this study.|
 | Tools don't work on VM (16) | 8 | 2 | Tools do not perform required functions when executed in a virtual environment. |
@@ -65,7 +65,7 @@ AC 5.1: The digital forensics tool is able to retrieve system logs
 ### Resources/Technology Needed
 
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
-|-|-|-|-|
+|---|---|---|---|
 | SANS Investigative Forensics Toolkit - SIFT | No | Casey | Target Forensics Toolkit |
 | FTK | No | Brandon | Target Forensics Toolkit |
 | Sleuth Kit | No | Preston | Target Forensics Toolkit |
