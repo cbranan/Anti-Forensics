@@ -9,11 +9,11 @@
 
 ### Executive Project Summary
 
-An enormous amount of data from interconnected devices has set a new era of issues that law enforcement has to find solutions for. Since humans are so reliant on using this technology, it comes to no surprise that many people are using this powerful technology to commit crimes. Thus law enforcement are often tasked with collecting digital evidence that is admissible in the court of law.
+Law enforcement has a new era of issues to find solutions for due to the enormous amount of data from connected devices. Since humans are so reliant on using this technology, it comes to no surprise that many people are using this powerful technology to commit crimes. Thus, the task of collecting digital evidence that is admissible in court is left law enforcement.
 
-Given that law enforcement wants to collect and use digital evidence in court to aid in the identification and conviction of criminals, there will be criminals and people out there who will want to thwart this collection process. Thus the concept of anti-forensics is introduced. Through anti-forensics, wrong-doers aim to derail investigations by reducing not only the quality, but also the quantity of data that may be used as digital evidence. Through this, the investigation may provide little insight into the act committed, allowing the offending party to escape the consequences of their actions.
+Given that law enforcement wants to collect and use digital evidence in court to aid in the identification and conviction of criminals, there will be criminals and people out there who will want to thwart this collection process. This has evolved into the concept of anti-forensics. Through anti-forensics, wrong-doers aim to derail investigations by reducing the quality and quantity of potential digital evidence. Through this, the investigation may provide little insight into the act committed, allowing the offending party to escape the consequences of their actions.
 
-The goal of our research is to generate a report that shows the strengths and weaknesses of widely used forensics toolkits. This research will be broken down into sections of: researching Anti-forensics tools for data hiding, data alteration, and data destruction, popular all-in-one forensics toolkits, and researching documentation strategies for evaluating these forensics toolkits.
+The goal of our research is to generate a report that shows the strengths and weaknesses of widely used forensics toolkits. We will break down our research into the sections of: researching Anti-forensics tools for data hiding, data alteration, and data destruction, popular all-in-one forensics toolkits, and researching documentation strategies for evaluating these forensics toolkits.
 
 Then, the research will move to building a virtual machine that has these tools and techniques used on the virtual machine, conducting forensic investigations with the forensic toolkits, and writing reports on the results.
 
@@ -37,27 +37,27 @@ After this project concludes, law enforcement, incident response, and digital fo
 
 ##### User Story 1.
 As a **Computer Forensic Analyst**, I want to **detect and recover hidden data** so I can **spot trails of evidence**
-AC 1.1: Using the digital forensics tool, the location of data hidden within the context of the system can be identified.
-AC 1.2: Using the digital forensics tool is able to recover data hidden within a given location.
+- AC 1.1: Using the digital forensics tool, the location of data hidden within the context of the system can be identified.
+- AC 1.2: Using the digital forensics tool is able to recover data hidden within a given location.
 
 ##### User Story 2.
 As a **Computer Forensic Analyst**, I want to **detect and recover deleted data** so I can **support/define a suspect's intent**
-AC 2.1: The digital forensics tool is able to detect all files whose pointers have been deleted and have not been completely overwritten in the file system.
-AC 2.2: The digital forensics tool is able to recover all portions of a file that have not been overwritten in the file system.
+- AC 2.1: The digital forensics tool is able to detect all files whose pointers have been deleted and have not been completely overwritten in the file system.
+- AC 2.2: The digital forensics tool is able to recover all portions of a file that have not been overwritten in the file system.
 
 ##### User Story 3.
 As a **Computer Forensic Analyst**, I want to **detect system modifications** so I can **construct a timeline of actions taken**
-AC 3.1: The digital forensics tool is able to detect changes to system logs
-AC 3.2: The digital forensics tool is able to detect changes to file attributes
-AC 3.3: The digital forensics tool is able to detect changes to the registry
+- AC 3.1: The digital forensics tool is able to detect changes to system logs
+- AC 3.2: The digital forensics tool is able to detect changes to file attributes
+- AC 3.3: The digital forensics tool is able to detect changes to the registry
 
 ##### User Story 4.
 As a **Member of a Computer Incident Response Team**, I want to **view previous activity on a system** so I can **restore the system's availability**
-AC 4.1: The digital forensics tool is able to retrieve system logs
+- AC 4.1: The digital forensics tool is able to retrieve system configuration and settings, while also retrieving system activity logs.
 
 ##### User Story 5. 
 As a **Member of a Computer Incident Response Team**, I want to **audit actions taken internally** so I can **verify employee compliance with company policies**
-AC 5.1: The digital forensics tool is able to retrieve system logs
+- AC 5.1: The digital forensics tool is able to retrieve user files and permissions, while also retrieving usernames and user activity logs.
 
 #### Use Case Diagram
 ![UseCases](images/UseCases.png)
