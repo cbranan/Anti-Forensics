@@ -1,10 +1,13 @@
 # Data Hiding Toolkit Evaluation Form
 
-*Evaluator*:
+*Evaluator:*
+
 *Forensics Toolkit:* 
 
 Casey Branan
+
 Capstone IASC-4580
+
 Forensics Tool Analysis Team
 
 ### Purpose
@@ -18,48 +21,62 @@ These findings tables are broken down into four sections on how well the forensi
 ### Steganography
 #### Xiao Tool 
 MTG1 bitmap file - Hidden text file with secret phrase “Chicken Turtle Bird”
+
 | Carrier File Not Recovered |Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 #### OpenPuff
 MP3 Adema-Giving in - 	Hidden text file with fake credit card number
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 MP3 Sugar Ray-Fly -	Hidden text file with a secrete message
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 MP3 Disturbed Stupify-	Hidden text file with a secrete message
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 ### Slack Space
 
-Xiao Stenography Executable	- Hidden confession starting at 00054910h 
+Xiao Stenography Executable	- Hidden confession starting at 00054910h
+
 | Executable Not Recovered | Executable Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 ### Alternate Data Streams
 
 nothinghere.txt:dontopen.txt	- Hidden message
+
 | ADS Not Recovered | ADS Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
 
 test:hiddendir.txt - 	Hidden message
+
 | ADS Not Recovered | ADS Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   |   |
+
 Comments:
