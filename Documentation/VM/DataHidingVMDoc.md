@@ -1,7 +1,9 @@
 # Data Hiding VM Documentation
 
 Casey Branan
+
 Capstone IASC-4580
+
 Forensics Tool Analysis Team
 
 ### Alternate Data Streams

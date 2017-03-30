@@ -1,7 +1,9 @@
 # Data Alteration Tool Documentation
 
 Brandon Franklin
+
 Capstone IASC-4580
+
 Forensics Tool Analysis Team
 
 ### Trail Obfuscation

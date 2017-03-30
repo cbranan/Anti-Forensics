@@ -1,10 +1,13 @@
 # Data Hiding Toolkit Evaluation
 
 *Evaluator*: **Casey Branan**
+
 *Forensics Toolkit:* **SANS SIFT Forensic Toolkits**
 
 Casey Branan
+
 Capstone IASC-4580
+
 Forensics Tool Analysis Team
 
 ### Purpose
@@ -18,50 +21,64 @@ These findings tables are broken down into four sections on how well the forensi
 ### Steganography
 #### Xiao Tool 
 MTG1 bitmap file - Hidden text file with secret phrase “Chicken Turtle Bird”
+
 | Carrier File Not Recovered |Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   | **X(1)**  |   |   |
+
 Comments:
 
 #### OpenPuff
 MP3 Adema-Giving in - 	Hidden text file with fake credit card number
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   | **X(1)**  |   |   |
+
 Comments:
 
 MP3 Sugar Ray-Fly -	Hidden text file with a secrete message
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   | **X(1)**  |   |   |
+
 Comments:
 
 MP3 Disturbed Stupify-	Hidden text file with a secrete message
+
 | Carrier File Not Recovered | Carrier File Recovered | Partial Payload Recovery | Full Payload Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   | **X(1)**  |   |   |
+
 Comments:
 
 ### Slack Space
 
-Xiao Stenography Executable	- Hidden confession starting at 00054910h 
+Xiao Stenography Executable	- Hidden confession starting at 00054910h
+
 | Executable Not Recovered | Executable Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   | **X(1)**  |   |   |
+
 Comments:
 
 ### Alternate Data Streams
 
 nothinghere.txt:dontopen.txt	- Hidden message
+
 | ADS Not Recovered | ADS Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   | **X(3)**  |
+
 Comments:
 
 test:hiddendir.txt - 	Hidden message
+
 | ADS Not Recovered | ADS Recovered | Partial Message Recovery | Full Message Recovery |
-| --- | --- | ---| --- |
+|---|---|---|---|
 |   |   |   | **X(3)**  |
+
 Comments:
 
 ### Appendix 1:

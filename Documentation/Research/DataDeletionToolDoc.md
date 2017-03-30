@@ -1,7 +1,9 @@
 # Data Deletion Tool Documentation
 
 Preston Wells
+
 Capstone IASC-4580
+
 Forensics Tool Analysis Team
 
 ### Disk Cleaning Utilities
