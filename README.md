@@ -56,7 +56,7 @@ As a **Member of a Computer Incident Response Team**, I want to **view previous 
 - AC 4.1: The digital forensics tool is able to retrieve system configuration and settings, while also retrieving system activity logs.
 
 ##### User Story 5. 
-As a **Member of a Computer Incident Response Team**, I want to **audit actions taken internally** so I can **verify employee compliance with company policies**
+As a **Computer Forensic Analyst**, I want to **identify and understand system contents** so I can **develope an overview of user activities**
 - AC 5.1: The digital forensics tool is able to retrieve user files and permissions, while also retrieving usernames and user activity logs.
 
 #### Use Case Diagram
