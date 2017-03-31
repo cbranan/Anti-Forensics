@@ -117,19 +117,19 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 
 ##### User Story 1. Detect and Recover Hidden Data
 - Embedding of Data
- - Accompanying Reports
-    - [SANS SIFT Report](Documentation/Reports/SIFTHidingEval.md)
- - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
- - [Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
+  - Accompanying Reports
+     - [SANS SIFT Report](Documentation/Reports/SIFTHidingEval.md)
+  - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
+  - [Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
 
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
- - Resulting Reports
- - [Accompanying Data Hiding Research](Documentation/Research/DataDeletionToolDoc.md)
- - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
+  - Resulting Reports
+  - [Accompanying Data Hiding Research](Documentation/Research/DataDeletionToolDoc.md)
+  - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
  
 ##### User Story 3. Detect and Recover System Contents
 - Manipulation of Data
- - Resulting Reports
- - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
- - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
+  - Resulting Reports
+  - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
+  - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
