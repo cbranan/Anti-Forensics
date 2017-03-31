@@ -116,7 +116,7 @@ Provided with findings from the analysis component, the presentation component g
 In order to assess the abilities of forensic toolkits, various techniques were applied in order to challenge their core functionality. The effects of these techniques were evaluated through the execution of forensic toolkits upon a generated VM which contains examples of data hiding in a manner to counter digital forensics. The reports associated with each specific forensic toolkit can be found below.
 
 ##### User Story 1. Detect and Recover Hidden Data
-- Embedding of Data
+- Hiding of Data
   - Accompanying Reports
      - [SANS SIFT Report](Documentation/Reports/SIFTHidingEval.md)
   - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
@@ -124,12 +124,10 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
-  - Resulting Reports
   - [Accompanying Data Hiding Research](Documentation/Research/DataDeletionToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
  
 ##### User Story 3. Detect and Recover System Contents
 - Manipulation of Data
-  - Resulting Reports
   - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
