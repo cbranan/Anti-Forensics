@@ -45,19 +45,19 @@ As a **Computer Forensic Analyst**, I want to **detect and recover deleted data*
 - AC 2.1: The digital forensics tool is able to detect all files whose pointers have been deleted and have not been completely overwritten in the file system.
 - AC 2.2: The digital forensics tool is able to recover all portions of a file that have not been overwritten in the file system.
 
-##### User Story 3.
-As a **Computer Forensic Analyst**, I want to **detect system modifications** so I can **construct a timeline of actions taken**
-- AC 3.1: The digital forensics tool is able to detect changes to system logs
-- AC 3.2: The digital forensics tool is able to detect changes to file attributes
-- AC 3.3: The digital forensics tool is able to detect changes to the registry
+##### User Story 3. 
+As a **Computer Forensic Analyst**, I want to **identify and understand system contents** so I can **develope an overview of user activities**
+- AC 3.1: The digital forensics tool is able to retrieve user files and permissions, while also retrieving usernames and user activity logs.
 
 ##### User Story 4.
-As a **Member of a Computer Incident Response Team**, I want to **view previous activity on a system** so I can **restore the system's availability**
-- AC 4.1: The digital forensics tool is able to retrieve system configuration and settings, while also retrieving system activity logs.
+As a **Computer Forensic Analyst**, I want to **detect system modifications** so I can **construct a timeline of actions taken**
+- AC 4.1: The digital forensics tool is able to detect changes to system logs
+- AC 4.2: The digital forensics tool is able to detect changes to file attributes
+- AC 4.3: The digital forensics tool is able to detect changes to the registry
 
-##### User Story 5. 
-As a **Computer Forensic Analyst**, I want to **identify and understand system contents** so I can **develope an overview of user activities**
-- AC 5.1: The digital forensics tool is able to retrieve user files and permissions, while also retrieving usernames and user activity logs.
+##### User Story 5.
+As a **Member of a Computer Incident Response Team**, I want to **view previous activity on a system** so I can **restore the system's availability**
+- AC 5.1: The digital forensics tool is able to retrieve system configuration and settings, while also retrieving system activity logs.
 
 #### Use Case Diagram
 ![UseCases](images/UseCases.png)
@@ -72,3 +72,61 @@ As a **Computer Forensic Analyst**, I want to **identify and understand system c
 | X-Ways Forensics | No | Preston | Optional Target Forensics Toolkit |
 | Virtual Box | No | Brandon | Virtualization Environment for Evaluating Forensic Toolkits |
 | Windows 7 ISO | No | Casey | Operating System used for Virtualized Environment |
+
+### Architectural Diagram
+
+![ArchDiagram](images/ArchDiagram.PNG)
+
+##### Collector Component
+
+The collector component interfaces with the target device to capture raw disk image and volatile memory dump. It intercepts raw network data to and from target device. Then, this component sends the captured data to the preparation component.
+
+##### Preparation Component
+
+The preparation component takes in the raw data provided by the collector component and carves it so that it may be easily leveraged by the analysis component of the forensic toolkit as parsed data. The network capture is parsed within the packet carver in which individual packets are derived and indexed. The raw disk image is parsed within the file carver which gathers the contents between file headers and indexes contents based on the given file's metadata. For handling raw memory, the contents are passed to memory the carver which generates parsed memory and packet information.
+
+##### Analysis Component
+
+Provided with data parsed by the preparation component, the analysis component provides an interface for conducting an investigation from which findings are derived.
+
+##### Presentation Component
+
+Provided with findings from the analysis component, the presentation component generates a court acceptable report relaying information contained in said findings.
+
+
+### Activity Diagrams
+
+##### Deleted Data Activity Diagram
+
+![ActDiagram-Deleted](images/ActDiagram-Deleted.png)
+
+##### Hidden Data Activity Diagram
+
+![ActDiagram-Hidden](images/ActDiagram-Hidden.png)
+
+##### System Contents Activity Diagram
+
+![ActDiagram-SysContents](images/ActDiagram-SysContents.png)
+
+### User Story Realization
+
+In order to assess the abilities of forensic toolkits, various techniques were applied in order to challenge their core functionality. The effects of these techniques were evaluated through the execution of forensic toolkits upon a generated VM which contains examples of data hiding in a manner to counter digital forensics. The reports associated with each specific forensic toolkit can be found below.
+
+##### User Story 1. Detect and Recover Hidden Data
+- Embedding of Data
+ - Accompanying Reports
+    - ![SANS SIFT Report](/Documentation/Reports/SIFTHidingEval.md)
+ - ![Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
+ - ![Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
+
+##### User Story 2. Detect and Recover Deleted Data
+- Deletion of Data
+ - Resulting Reports
+ - ![Accompanying Data Hiding Research](/Documentation/Research/DataDeletionToolDoc.md)
+ - ![Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
+ 
+##### User Story 3. Detect and Recover System Contents
+- Manipulation of Data
+ - Resulting Reports
+ - ![Accompanying Data Alteration Research](/Documentation/Research/DataAlterationToolDoc.md)
+ - ![Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
