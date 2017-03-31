@@ -6,6 +6,9 @@
 - [Project-Oriented Risk List](#project-oriented-risk-list)
 - [Application Requirements](#application-requirements)
 - [Resources Needed](#resources-needed)
+- [Architectural Diagram](#architectural-diagram)
+- [Activity Diagrams](#activity-diagrams)
+- [User Story Realization](#user-story-realization)
 
 ### Executive Project Summary
 
@@ -62,7 +65,7 @@ As a **Member of a Computer Incident Response Team**, I want to **view previous 
 #### Use Case Diagram
 ![UseCases](images/UseCases.png)
 
-### Resources/Technology Needed
+### Resources Needed
 
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |---|---|---|---|
@@ -115,18 +118,18 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 ##### User Story 1. Detect and Recover Hidden Data
 - Embedding of Data
  - Accompanying Reports
-    - ![SANS SIFT Report](/Documentation/Reports/SIFTHidingEval.md)
- - ![Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
- - ![Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
+    - [SANS SIFT Report](Documentation/Reports/SIFTHidingEval.md)
+ - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
+ - [Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
 
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
  - Resulting Reports
- - ![Accompanying Data Hiding Research](/Documentation/Research/DataDeletionToolDoc.md)
- - ![Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
+ - [Accompanying Data Hiding Research](Documentation/Research/DataDeletionToolDoc.md)
+ - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
  
 ##### User Story 3. Detect and Recover System Contents
 - Manipulation of Data
  - Resulting Reports
- - ![Accompanying Data Alteration Research](/Documentation/Research/DataAlterationToolDoc.md)
- - ![Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
+ - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
+ - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
