@@ -106,9 +106,10 @@ The lib packages that came with SAN SIFT are specifically designed to allow open
 Finally, the evaluation comes down to what can MantaRay and SluethKit forensic tools find. MantaRay had some nice packages built in that could be very useful in an actual forensic investigation. However, the only package I was able to find that was relevant to the steganography we were looking to detect was an exfiltration tool for JPEGs. Unfortunately, the FTK fails even on this level, because the steganography that was done was using MP3 and Bitmap files as carrier files. Sluethkit also fails in this aspect, as none of the built-in packages are designed or able to perform any kind of stainless. 
 
 ### Verdict:
-The SIFT Workstation at this point seems much less like an FTK and more like a distro of Unbunto that has some nice installed packages that can assist in forensics analysis; much like Kali Linux distro has a few nice tools for security, it does not contain near an entire package to call it a whole security kit. The file carver was able to recover the carrier files, but none of the available tools or packages allowed me to complete any kind of steganalysis to see if there was anything hidden in the few files that existed on the VM. As a result, any basic steganography would go undetected with this standard workstation analysis. 
+The SIFT Workstation at this point seems much less like an FTK and more like a distro of Ubuntu that has some nice installed packages that can assist in forensics analysis; much like Kali Linux distro has a few nice tools for security, it does not contain near an entire package to call it a whole security kit. The file carver was able to recover the carrier files, but none of the available tools or packages allowed me to complete any kind of steganalysis to see if there was anything hidden in the few files that existed on the VM. As a result, any basic steganography would go undetected with this standard workstation analysis.
 
-SIFT received 1 point of each of the 4 hidden files (4 points) out of 12, and scored very poorly in the Steganography section. It scored the poorly with only 1 point in the Slack Space section as well out of 3 points. Finally, SIFT finished strong by fully recovering and receiving all 6 points for the Alternate Data Stream Section. The final point score for SAN SIFT was 11 out of 18.
+### Results
 
-
-----------
+| Score | Max Possible Score |
+|---|---|
+| **11** | **21** |
