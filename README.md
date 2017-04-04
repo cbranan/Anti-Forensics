@@ -49,7 +49,7 @@ As a **Computer Forensic Analyst**, I want to **detect and recover deleted data*
 - AC 2.2: The digital forensics tool is able to recover all portions of a file that have not been overwritten in the file system.
 
 ##### User Story 3. 
-As a **Computer Forensic Analyst**, I want to **identify and understand system contents** so I can **develope an overview of user activities**
+As a **Computer Forensic Analyst**, I want to **identify and understand system contents** so I can **develop an overview of user activity**
 - AC 3.1: The digital forensics tool is able to retrieve user files and permissions, while also retrieving usernames and user activity logs.
 
 ##### User Story 4.
