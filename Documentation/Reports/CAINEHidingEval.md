@@ -89,7 +89,7 @@ As far as the slack space goes, the main way that CAINE analzes this is using Xa
 
 Finally, for the alternate data streams it just came down to looking for the \*:\*.txt in the file system. Which since CAINE has a older version of Autopsy built into it, made for easy searching of that kind of reference. Once that was found the messages were right there in plaintext.  
 
-Verdict:
+### Verdict:
 
 CAINE 7.0 is actually just a distro of Ubuntu with some forensics tools on it, but it doesn't contain an entire forensic tookit. For hidden data, any steganography will go missed by this toolkit due to its lack of steganalysis tools. Also, any slack space hidden data will be missed if the same kind of problem that I ran into with it not running Xall happens during analysis.
 
