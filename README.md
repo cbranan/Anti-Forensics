@@ -120,6 +120,7 @@ In order to assess the abilities of forensic toolkits, various techniques were a
   - Accompanying Reports
      - [SANS SIFT Report](Documentation/Reports/SIFTHidingEval.md)
      - [Digital Forensics Framework Report](Documentation/Reports/DFFHidingEval.md)
+     - [CAINE 7.0 Report](Documentation/Reports/CAINEHidingEval.md)
   - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataHidingVMDoc.md)
 
