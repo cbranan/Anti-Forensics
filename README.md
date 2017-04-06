@@ -126,7 +126,7 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
-  - [Accompanying Data Hiding Research](Documentation/Research/DataDeletionToolDoc.md)
+  - [Accompanying Data Deletion Research](Documentation/Research/DataDeletionToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
  
 ##### User Story 3. Detect and Recover System Contents
