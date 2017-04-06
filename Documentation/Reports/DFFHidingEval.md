@@ -81,6 +81,19 @@ test:hiddendir.txt - 	Hidden message
 
 Comments:
 
+### Summary:
+
+DFF is provided as a standalone application which provides both graphical and command line access to its forensic capabilities. 
+
+Designed to capture information immediately available in the file system and in memory, DFF provides little functionality in the way of detecting and handling steganography. While DFF provides a bitmap and hex view, the only option for attempting to interpret the state of a file is through manual inspection which is not feasible in a time-critical field. As such DFF only managed to capture the files themselves but was unable to provide any information that was embedded in them.
+
+With respect to slack space, with the only option for analysis of slack space within programs was also through the earlier mentioned hex view of the application. Although the tool attempts to capture strings contained within the raw hex, strings of relevance were not detected by this component in this case. While this may aid in the application of searching for text within corrupted files, this provided no benefit as the string entered into the files slack space was not detected.
+
+In the handling of alternate data streams, such contents were made immediately visible as part of the file structure when browsing the disk, making detection of such items trivial.
+
+### Verdict:
+DFF's greatest strength appears to be in handling memory and latent artifacts that exist within a system. In the handling of hidden data, DFF provides no distinct functionality in the way of analysis given that any items it did pickup were simply made available as part of the preparation of the disk. While there exist many tools to at least detect steganography on a per file basis, DFF presented no such functionality. Lacking this ability, any steganography related actions went completely unnoticed by the toolkit.
+
 ### Results
 
 | Score | Max Possible Score |
