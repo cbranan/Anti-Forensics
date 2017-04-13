@@ -59,7 +59,7 @@ Xiao Stenography Executable	- Hidden confession starting at 00054910h
 
 | Executable Not Recovered | Executable Recovered | Partial Message Recovery | Full Message Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
