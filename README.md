@@ -113,11 +113,11 @@ Provided with findings from the analysis component, the presentation component g
 
 ##### User Activity Activity Diagram
 
-![ActDiagram-SysContents](images/ActDiagram-Activities.png)
+![ActDiagram-SysContents](images/ActDiagram-Activities.PNG)
 
 ##### System Activity Activity Diagram
 
-![ActDiagram-SysContents](images/ActDiagram-Recover.png)
+![ActDiagram-SysContents](images/ActDiagram-Recover.PNG)
 
 ### User Story Realization
 
