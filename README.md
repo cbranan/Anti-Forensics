@@ -133,5 +133,7 @@ In order to assess the abilities of forensic toolkits, various techniques were a
  
 ##### User Story 3. Detect and Recover System Contents
 - Manipulation of Data
+  - Accompanying Reports
+    - [CAINE 7.0 Report](Documentation/Reports/CAINEAlteredEval.md)
   - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
