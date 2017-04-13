@@ -151,9 +151,9 @@ In order to assess the abilities of forensic toolkits, various techniques were a
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
   
 ##### User Story 4. Create User Activity Overview
- - [Accompanying Research](/Documentation/Research/)
+ - [Researched Tools and Techniques](/Documentation/Research/)
  - [Documentation regarding creation of the target VMs](/Documentation/VM/)
 
 ##### User Story 5. Determine System Changes for System Recovery
--  [Accompanying Research](/Documentation/Research/)
+-  [Researched Tools and Techniques](/Documentation/Research/)
 -  [Documentation regarding creation of the target VMs](/Documentation/VM/)
