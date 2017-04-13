@@ -72,7 +72,7 @@ File7_P3P.png - Image file deleted with Air Force 5020.
 
 Comments:
 
-File4_P7P.png - Image file deleted with Schneier 7 pass.
+File8_P7P.png - Image file deleted with Schneier 7 pass.
 
 | Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
 |---|---|---|---|
