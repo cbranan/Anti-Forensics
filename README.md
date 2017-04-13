@@ -135,6 +135,8 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
   - Accompanying Reports
+    - [SANS SIFT Report](Documentation/Reports/SIFTDeleted.md)
+    - [Digital Forensics Framework Report](Documentation/Reports/DFFDeletedEval.md)
     - [CAINE 7.0 Report](Documentation/Reports/CAINEDeletedEval.md)
   - [Accompanying Data Deletion Research](Documentation/Research/DataDeletionToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
@@ -142,6 +144,8 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 ##### User Story 3. Detect and Recover System Contents
 - Manipulation of Data
   - Accompanying Reports
+    - [SANS SIFT Report](Documentation/Reports/SIFTAltered.md)
+    - [Digital Forensics Framework Report](Documentation/Reports/DFFAlteredEval.md)
     - [CAINE 7.0 Report](Documentation/Reports/CAINEAlteredEval.md)
   - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
