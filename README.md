@@ -111,6 +111,14 @@ Provided with findings from the analysis component, the presentation component g
 
 ![ActDiagram-SysContents](images/ActDiagram-SysContents.png)
 
+##### User Activity Activity Diagram
+
+![ActDiagram-SysContents](images/ActDiagram-Activities.png)
+
+##### System Activity Activity Diagram
+
+![ActDiagram-SysContents](images/ActDiagram-Recover.png)
+
 ### User Story Realization
 
 In order to assess the abilities of forensic toolkits, various techniques were applied in order to challenge their core functionality. The effects of these techniques were evaluated through the execution of forensic toolkits upon a generated VM which contains examples of data hiding in a manner to counter digital forensics. The reports associated with each specific forensic toolkit can be found below.
