@@ -18,7 +18,7 @@ The purpose of this is to test the analysis component of each of our forensic to
 
 File1_CC.txt - Text file deleted with CCleaner.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -26,7 +26,7 @@ Comments:
 
 File2_SD.txt - Text file deleted with SDelete.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -34,7 +34,7 @@ Comments:
 
 File3_3P.txt - Text file deleted with Air Force 5020.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -42,7 +42,7 @@ Comments:
 
 File4_7P.txt - Text file deleted with Schneier 7 pass.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -50,7 +50,7 @@ Comments:
 
 File5_PCC.png - Image file deleted with CCleaner.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -58,7 +58,7 @@ Comments:
 
 File6_PSD.png - Image file deleted with SDelete.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -66,7 +66,7 @@ Comments:
 
 File7_P3P.png - Image file deleted with Air Force 5020.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
@@ -74,7 +74,7 @@ Comments:
 
 File8_P7P.png - Image file deleted with Schneier 7 pass.
 
-| Deleted File Not Found |Deleted File Found/Not Recovered | Deleted File Found/Partial Recovery | Deleted File Found/Full Recovery |
+| Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
 |   |   |   |   |
 
