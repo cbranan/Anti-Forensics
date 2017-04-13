@@ -1,8 +1,8 @@
 # Data Deletion Toolkit Evaluation Form
 
-*Evaluator:*
+*Evaluator:* Brandon Franklin
 
-*Forensics Toolkit:* 
+*Forensics Toolkit:* Digital Forensics Framework
 
 Preston Wells
 
