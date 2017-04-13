@@ -126,6 +126,8 @@ In order to assess the abilities of forensic toolkits, various techniques were a
 
 ##### User Story 2. Detect and Recover Deleted Data
 - Deletion of Data
+  - Accompanying Reports
+    - [CAINE 7.0 Report](Documentation/Reports/CAINEDeletedEval.md)
   - [Accompanying Data Deletion Research](Documentation/Research/DataDeletionToolDoc.md)
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataDeletionVMDoc.md)
  
