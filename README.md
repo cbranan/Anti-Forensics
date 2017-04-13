@@ -151,9 +151,9 @@ In order to assess the abilities of forensic toolkits, various techniques were a
   - [Documentation regarding creation of the target VM](/Documentation/VM/DataAlterationVMDoc.md)
   
 ##### User Story 4. Create User Activity Overview
- -[Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
- -[Accompanying Data Deletion Research](Documentation/Research/DataDeletionToolDoc.md)
- -[Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
+ - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
+ - [Accompanying Data Deletion Research](Documentation/Research/DataDeletionToolDoc.md)
+ - [Accompanying Data Alteration Research](Documentation/Research/DataAlterationToolDoc.md)
 
 ##### User Story 5. Determine System Changes for System Recovery
 - [Accompanying Data Hiding Research](/Documentation/Research/DataHidingToolDoc.md)
