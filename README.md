@@ -99,23 +99,23 @@ Provided with findings from the analysis component, the presentation component g
 
 ### Activity Diagrams
 
-##### Deleted Data Activity Diagram
+##### Deleted Data - Activity Diagram
 
 ![ActDiagram-Deleted](images/ActDiagram-Deleted.png)
 
-##### Hidden Data Activity Diagram
+##### Hidden Data - Activity Diagram
 
 ![ActDiagram-Hidden](images/ActDiagram-Hidden.png)
 
-##### System Contents Activity Diagram
+##### System Contents - Activity Diagram
 
 ![ActDiagram-SysContents](images/ActDiagram-SysContents.png)
 
-##### User Activity Activity Diagram
+##### User Activity - Activity Diagram
 
 ![ActDiagram-SysContents](images/ActDiagram-Activities.PNG)
 
-##### System Activity Activity Diagram
+##### System Activity - Activity Diagram
 
 ![ActDiagram-SysContents](images/ActDiagram-Recover.PNG)
 
