@@ -61,18 +61,18 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *Subtotal*                    | 7/9 | 5/9 | 7/9 |
 | **Timestamp Recovery**        | | | |
 | *- entrance.txt*              | 3 | 2 | 1 |
-| *Subtotal*                    | 3/3 | 2/3 | 1/3 |
+| *Subtotal*                    | 9/9 | 6/9 | 3/9 |
 | **Encrypted Volume Recovery** | | | |
 | *- coolstuff*                 | 1 | 1 | 1 |
 | *- plans*                     | 1 | 1 | 1 |
 | *- phases*                    | 1 | 1 | 1 |
-| *Subtotal*                    | 1/3 | 1/3 | 1/3 |
-| **Total Score:**              | **19/27** | **15/27** | **13/27** |
+| *Subtotal*                    | 3/9 | 3/9 | 3/9 |
+| **Total Score:**              | **19/27** | **14/27** | **13/27** |
 
 #### Results
 |                               | SIFT | DFF | CAINE 7 |
 | ---                           | --- | --- | --- |
 | *Section 1: Data Hiding*      | 15/27 | 15/27 | 15/27 | 
 | *Section 2: Data Deletion*    | 9/27 | 9/27 | 9/27 |
-| *Section 3: Data Alteration*  | 19/27 | 15/27 | 13/27 |
-| **Total Score:**              | **43/81** | **39/81** | **37/81** |
+| *Section 3: Data Alteration*  | 19/27 | 14/27 | 13/27 |
+| **Total Score:**              | **43/81** | **38/81** | **37/81** |
