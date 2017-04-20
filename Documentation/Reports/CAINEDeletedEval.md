@@ -20,7 +20,7 @@ File1_CC.txt - Text file deleted with CCleaner.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-|  **X(0)** |   |   |   |
+|  |  **X(1)**  |   |   |
 
 Comments:
 
@@ -28,7 +28,7 @@ File2_SD.txt - Text file deleted with SDelete.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -36,7 +36,7 @@ File3_3P.txt - Text file deleted with Air Force 5020.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -44,7 +44,7 @@ File4_7P.txt - Text file deleted with Schneier 7 pass.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -52,7 +52,7 @@ File5_PCC.png - Image file deleted with CCleaner.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -60,7 +60,7 @@ File6_PSD.png - Image file deleted with SDelete.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -68,7 +68,7 @@ File7_P3P.png - Image file deleted with Air Force 5020.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Comments:
 
@@ -76,10 +76,10 @@ File8_P7P.png - Image file deleted with Schneier 7 pass.
 
 | Deleted File Not Found | Reference to File Found | Partial Recovery | Full Recovery |
 |---|---|---|---|
-| **X(0)**  |   |   |   |
+|   | **X(1)**  |   |   |
 
 Score:
-0/24
+8/24
 
 Comments:
-After analyzing the carved image of the deleted drive I was not able to find any evidence of the files that were deleted. Since I was not able to find them, I obviously was unable to recover the information either.
+I was able to locate a tool in the toolkit that allowed me to parse a dd image and find the lnk files. This allowed me to find the lnk references for the previously deleted files but that was all I could find.
