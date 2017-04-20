@@ -26,12 +26,15 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- Adema-Giving in MP3*           | 1 | 1 | 1 |
 | *- Sugar Ray-Fly MP3*             | 1 | 1 | 1 |
 | *- Disturbed Stupify MP3*         | 1 | 1 | 1 |
+| *Subtotal*                        | 1/3 | 1/3 | 1/3 |
 | **Slack Space Recovery**          | | | |
 | *- Xiao Stenography Executable*   | 1 | 1 | 1 |
+| *Subtotal*                        | 1/3 | 1/3 | 1/3 |
 |**Alternate Data Streams Recovery**| | | |
 | *- nothinghere.txt:dontopen.txt*  | 3 | 3 | 3 |
 | *- test:hiddendir.txt*            | 3 | 3 | 3 |
-| **Total Score:**                  | **11/21** | **11/21** | **11/21** |
+| *Subtotal*                        | 3/3 | 3/3 | 3/3 |
+| **Total Score:**                  | **5/9** | **5/9** | **5/9** |
 
 #### Data Deletion
 |                           | SIFT | DFF | CAINE 7 |
@@ -45,7 +48,8 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- File6_PSD.png*         | 1 | 1 | 1 |
 | *- File7_P3P.png*         | 1 | 1 | 1 |
 | *- File8_P7P.png*         | 1 | 1 | 1 |
-| **Total Score:**          | **8/24** | **8/24** | **8/24** |
+| *Subtotal*                | 1/3 | 1/3 | 1/3 |
+| **Total Score:**          | **1/3** | **1/3** | **1/3** |
 
 #### Data Alteration
 |                               | SIFT | DFF | CAINE 7 |
@@ -54,18 +58,21 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- hidden.pdf*                | 3 | 3 | 3 |
 | *- credentials.7z*            | 1 | 1 | 3 |
 | *- key.jpg*                   | 3 | 1 | 1 |
+| *Subtotal*                    | 7/9 | 5/9 | 7/9 |
 | **Timestamp Recovery**        | | | |
 | *- entrance.txt*              | 3 | 2 | 1 |
+| *Subtotal*                    | 3/3 | 2/3 | 1/3 |
 | **Encrypted Volume Recovery** | | | |
 | *- coolstuff*                 | 1 | 1 | 1 |
 | *- plans*                     | 1 | 1 | 1 |
 | *- phases*                    | 1 | 1 | 1 |
-| **Total Score:**              | **13/21** | **10/21** | **11/21** |
+| *Subtotal*                    | 1/3 | 1/3 | 1/3 |
+| **Total Score:**              | **19/27** | **15/27** | **13/27** |
 
 #### Results
 |                               | SIFT | DFF | CAINE 7 |
 | ---                           | --- | --- | --- |
-| *Section 1: Data Hiding*      | 11/21 | 11/21 | 11/21 | 
-| *Section 2: Data Deletion*    | 8/24 | 8/24 | 8/24 |
-| *Section 3: Data Alteration*  | 13/21 | 10/21 | 11/21 |
-| **Total Score:**              | **32/66** | **29/66** | **30/66** |
+| *Section 1: Data Hiding*      | 15/27 | 15/27 | 15/27 | 
+| *Section 2: Data Deletion*    | 9/27 | 9/27 | 9/27 |
+| *Section 3: Data Alteration*  | 19/27 | 15/27 | 13/27 |
+| **Total Score:**              | **43/81** | **39/81** | **37/81** |
