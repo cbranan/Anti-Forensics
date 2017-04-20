@@ -29,15 +29,15 @@ For each task, points ranging from (0-3) are given depending on how well the too
 |                           | SIFT | DFF | CAINE 7 |
 | ---                       | --- | --- | --- |
 | **Deleted File Recovery** | | | | 
-| *- File1_CC.txt*          | 1 | 1 | 0 |
-| *- File2_SD.txt*          | 1 | 1 | 0 |
-| *- File3_3P.txt*          | 1 | 1 | 0 |
-| *- File4_7P.txt*          | 1 | 1 | 0 |
-| *- File5_PCC.png*         | 1 | 1 | 0 |
-| *- File6_PSD.png*         | 1 | 1 | 0 |
-| *- File7_P3P.png*         | 1 | 1 | 0 |
-| *- File8_P7P.png*         | 1 | 1 | 0 |
-| **Total Score:**          | **8/24** | **8/24** | **0/24** |
+| *- File1_CC.txt*          | 1 | 1 | 1 |
+| *- File2_SD.txt*          | 1 | 1 | 1 |
+| *- File3_3P.txt*          | 1 | 1 | 1 |
+| *- File4_7P.txt*          | 1 | 1 | 1 |
+| *- File5_PCC.png*         | 1 | 1 | 1 |
+| *- File6_PSD.png*         | 1 | 1 | 1 |
+| *- File7_P3P.png*         | 1 | 1 | 1 |
+| *- File8_P7P.png*         | 1 | 1 | 1 |
+| **Total Score:**          | **8/24** | **8/24** | **8/24** |
 
 ### Data Alteration
 |                               | SIFT | DFF | CAINE 7 |
@@ -58,6 +58,6 @@ For each task, points ranging from (0-3) are given depending on how well the too
 |                               | SIFT | DFF | CAINE 7 |
 | ---                           | --- | --- | --- |
 | *Section 1: Data Hiding*      | 11/21 | 11/21 | 11/21 | 
-| *Section 2: Data Deletion*    | 8/24 | 8/24 | 0/24 |
+| *Section 2: Data Deletion*    | 8/24 | 8/24 | 8/24 |
 | *Section 3: Data Alteration*  | 13/21 | 10/21 | 11/21 |
-| **Total Score:**              | **32/66** | **29/66** | **22/66** |
+| **Total Score:**              | **32/66** | **29/66** | **30/66** |
