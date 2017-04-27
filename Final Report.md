@@ -26,15 +26,15 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- Adema-Giving in MP3*           | 1 | 1 | 1 |
 | *- Sugar Ray-Fly MP3*             | 1 | 1 | 1 |
 | *- Disturbed Stupify MP3*         | 1 | 1 | 1 |
-| *Subtotal*                        | 1/3 | 1/3 | 1/3 |
+| *Subtotal*                        | 4/12(33%) | 4/12(33%) | 4/12(33%) |
 | **Slack Space Recovery**          | | | |
 | *- Xiao Stenography Executable*   | 1 | 1 | 1 |
-| *Subtotal*                        | 1/3 | 1/3 | 1/3 |
+| *Subtotal*                        | 1/3(33%) | 1/3(33%) | 1/3(33%) |
 |**Alternate Data Streams Recovery**| | | |
 | *- nothinghere.txt:dontopen.txt*  | 3 | 3 | 3 |
 | *- test:hiddendir.txt*            | 3 | 3 | 3 |
-| *Subtotal*                        | 3/3 | 3/3 | 3/3 |
-| **Total Score:**                  | **5/9** | **5/9** | **5/9** |
+| *Subtotal*                        | 6/6(100%) | 6/6(100%) | 6/6(100%) |
+| **Total Score:**                  | **56%** | **56%** | **56%** |
 
 #### Data Deletion
 |                           | SIFT | DFF | CAINE 7 |
@@ -48,8 +48,8 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- File6_PSD.png*         | 1 | 1 | 1 |
 | *- File7_P3P.png*         | 1 | 1 | 1 |
 | *- File8_P7P.png*         | 1 | 1 | 1 |
-| *Subtotal*                | 1/3 | 1/3 | 1/3 |
-| **Total Score:**          | **1/3** | **1/3** | **1/3** |
+| *Subtotal*                | 8/24(33%) | 8/24(33%) | 8/24(33%) |
+| **Total Score:**          | **33%** | **33%** | **33%** |
 
 #### Data Alteration
 |                               | SIFT | DFF | CAINE 7 |
@@ -58,21 +58,21 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *- hidden.pdf*                | 3 | 3 | 3 |
 | *- credentials.7z*            | 1 | 1 | 3 |
 | *- key.jpg*                   | 3 | 1 | 1 |
-| *Subtotal*                    | 7/9 | 5/9 | 7/9 |
+| *Subtotal*                    | 7/9(78%) | 5/9(56%) | 7/9(78%) |
 | **Timestamp Recovery**        | | | |
 | *- entrance.txt*              | 3 | 2 | 1 |
-| *Subtotal*                    | 9/9 | 6/9 | 3/9 |
+| *Subtotal*                    | 3/3(100%) | 2/3(67%) | 1/3(33%) |
 | **Encrypted Volume Recovery** | | | |
 | *- coolstuff*                 | 1 | 1 | 1 |
 | *- plans*                     | 1 | 1 | 1 |
 | *- phases*                    | 1 | 1 | 1 |
-| *Subtotal*                    | 3/9 | 3/9 | 3/9 |
-| **Total Score:**              | **19/27** | **14/27** | **13/27** |
+| *Subtotal*                    | 3/9(33%) | 3/9(33%) | 3/9(33%) |
+| **Total Score:**              | **70%** | **52%** | **48%** |
 
 #### Results
 |                               | SIFT | DFF | CAINE 7 |
 | ---                           | --- | --- | --- |
-| *Section 1: Data Hiding*      | 15/27 | 15/27 | 15/27 | 
-| *Section 2: Data Deletion*    | 9/27 | 9/27 | 9/27 |
-| *Section 3: Data Alteration*  | 19/27 | 14/27 | 13/27 |
-| **Total Score:**              | **43/81** | **38/81** | **37/81** |
+| *Section 1: Data Hiding*      | 56% | 56% | 56% | 
+| *Section 2: Data Deletion*    | 33% | 33% | 33% |
+| *Section 3: Data Alteration*  | 70% | 52% | 48% |
+| **Total Score:**              | **53%** | **47%** | **46%** |
