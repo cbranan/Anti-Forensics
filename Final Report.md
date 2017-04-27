@@ -76,3 +76,9 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *Section 2: Data Deletion*    | 33% | 33% | 33% |
 | *Section 3: Data Alteration*  | 70% | 52% | 48% |
 | **Total Score:**              | **53%** | **47%** | **46%** |
+
+### Analysis of Findings 
+
+After evaluation of anti-forensic impact on out forensic toolkits, we discovered several Universal Deficiencies that need to be addressed. A major weakness in each of our toolkits was that there is no support for steganalysis. As a result, and carrier files were not found to contain hidden information, meaning that the hidden data was never implied or discovered. Our toolkits universally struggled with slack space if the data was not hidden in unallocated space. By using any hex editor and a program to find the end of the used file, anyone can write data in slack space at the end of the file and go undetected. 
+
+Our tools had deleted data support, however, society's technological limitations does not have an answer to overwritten data. As a result, all of the anti-forensic techniques involving different overpasses became unrecoverable globally. Cryptanalysis is also a major weakness, as our tools could find the volumes but had no way to detect they were encrypted or break the encryption to recover the data. Finally, these forensic toolkits need a way to find and recover changes to meta data and file signatures to recovery the actual data.
