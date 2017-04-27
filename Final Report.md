@@ -77,7 +77,7 @@ For each task, points ranging from (0-3) are given depending on how well the too
 | *Section 3: Data Alteration*  | 70% | 52% | 48% |
 | **Total Score:**              | **53%** | **47%** | **46%** |
 
-### Analysis of Findings 
+### Analysis Summary
 
 After evaluation of anti-forensic impact on out forensic toolkits, we discovered several Universal Deficiencies that need to be addressed. A major weakness in each of our toolkits was that there is no support for steganalysis. As a result, and carrier files were not found to contain hidden information, meaning that the hidden data was never implied or discovered. Our toolkits universally struggled with slack space if the data was not hidden in unallocated space. By using any hex editor and a program to find the end of the used file, anyone can write data in slack space at the end of the file and go undetected. 
 
