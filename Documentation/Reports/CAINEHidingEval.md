@@ -98,3 +98,6 @@ CAINE 7.0 is actually just a distro of Ubuntu with some forensics tools on it, b
 | Score | Max Possible Score |
 |---|---|
 | **10** | **21** |
+
+Process:
+Create a Caine VM, and then attach the hard drive that I wanted to inspect to that VM. Once the machine was booted up, I used Guymager to carve the image and save the imaged in a .E0 format. Once the carver was done I then went into the version of autopsy that was on this tool kit and created a new case with the approriate images. Once that case was added, seeing as though for the purpose of this assignment we already new what the names of the files we were looking for were. I just used the file search, to search for the names of the appropriate files. In the case of steganograph, I was able to find all of the files that we were looking for but there was no way in which for me to know that there was something hidden in them, recover that or even check for that in this toolkit. Alternate data streams once I seached for their names just poped up like a big red flag. However, the slack space because I was able to find a tool that would let me look at the information in unallocated space, but not the information that was in slack space in allocated space.
