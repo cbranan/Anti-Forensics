@@ -83,3 +83,6 @@ Score:
 
 Comments:
 I was able to locate a tool in the toolkit that allowed me to parse a dd image and find the lnk files. This allowed me to find the lnk references for the previously deleted files but that was all I could find.
+
+Proccess:
+Create a Caine VM, and then attach the hard drive that I wanted to inspect to that VM. Once the machine was booted up, I used Guymager to carve the image and save the imaged in a .E0 format. Once the carver was done I then went into the version of autopsy that was on this tool kit and created a new case with the approriate images. Once that case was added, seeing as though for the purpose of this assignment we already new what the names of the files we were looking for were. I just used the file search, to search for the names of the appropriate files. But, because the files had not only their filename deleted they had been written over completely, the only thing that I could discover about this was the .lnks to where the previous files that I could no longer recoer.
